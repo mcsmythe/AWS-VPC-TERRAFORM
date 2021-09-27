@@ -7,4 +7,4 @@ I use ECS for my Docker Regsitry and utilize AWS CLI trying to limit exposing my
 
 As my instructure grows for various React/Node dev projects I will explore all the bells and whisles of HA, ALBs, Bastion Hosts in the public subnet or NAT gateways and ASGs and RDS in the Private Subs, but for now this skeleton terraform VPC project sticks to my AWS budget.
 
-** Update ** I added a simple shell script that I use to install Docker, add Docker to the user group and install docker-compose. Eventually I will migrate to an Ansible Role with expanding EC2s, but sometimes I keep it simple!  
+**Update** I added a simple shell script that I use to install Docker, add Docker to the user group and install docker-compose. Eventually I will migrate to an Ansible Role with expanding EC2s, but sometimes I keep it simple!  
